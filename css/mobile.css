@@ -310,7 +310,7 @@ footer .navigations .map h3 .icon{display: none;}
   .camera .stage figure img{width: 678px;}
   .camera .stage video{top: 23px; left: 50px; transform: scale(.65); transform-origin: 0 0;}
   .camera .stage .controller--play,
-  .camera .stage .controller--pause{transform: translate(276px,-88px);}
+  .camera .stage .controller--pause{transform: translate(276px,-88px) rotate(-3deg);}
   .camera .stage figcaption{transform: scale(.8) translate(-136px,306px);}
 
 
@@ -586,7 +586,7 @@ footer .navigations .map h3 .icon{display: none;}
 
 
 @media (max-width:1000px){
-  .accessroy_shop img{width: 960px;}
+  .accessory_shop img{width: 960px;}
 }
 @media (max-width:740px){
   
@@ -615,7 +615,7 @@ footer .navigations .map h3 .icon{display: none;}
   footer .navigations .map h3 .text{flex-grow: 1;}
   footer .navigations .map h3 .icon{display: block; padding: 0 10px; color: var(--color-font-darkgray);}
   footer .navigations .map h3:hover{font-weight: 600;}
-  footer .navigations .map ul{height: 0; overflow: hidden; transition:  transform .6, opacity .4; transform: translate(0,-20px); opacity: 0;}
+  footer .navigations .map ul{height: 0; overflow: hidden; transition:  transform .6s, opacity .4s; transform: translate(0,-20px); opacity: 0;}
   footer .navigations .map.active ul{height: auto; overflow: visible; padding: 6px 0 18px; transform: translate(0,0); opacity: 1;}
   footer .navigations .map.active h3 .icon{transform: scale(1.2) rotate(45deg);}
   footer .legal ul{flex-wrap: wrap; gap: 6px 21px;}
