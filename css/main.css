@@ -182,7 +182,7 @@ main{overflow-x: hidden;}
 .hero figure figcaption .caption_camera{width: 120px; height: 84px; transform: translate(43px,580px); background: url('../images/hero_ipad_caption_camera.png');}
 .hero figure figcaption .caption_chip{width: 95px; height: 43px; transform: translate(589px,510px); background: url('../images/hero_ipad_caption_chip.png');}
 .hero figure figcaption .caption_storage{width: 80px; height: 43px; transform: translate(627px,631px); background: url('../images/hero_ipad_caption_storage.png');}
-.hero h2{width: 738px; height: 145px; margin: 0 auto; background: url('../images/hero_headline.png'); }
+.hero h2{width: 738px; height: 145px; margin: 0 auto; background-image: url('../images/hero_headline.png'); }
 .hero p.pricing{margin-top: 40px; font-size: 24px; font-weight: 600; text-align: center;}
 .hero p.description{width: 88%; margin: 18px auto 0; font-size: 19px; text-align: center; }
 .hero .links{margin-top: 30px;}

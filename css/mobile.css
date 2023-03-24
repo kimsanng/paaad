@@ -493,9 +493,9 @@ footer .navigations .map h3 .icon{display: none;}
 
 }
 @media(max-width:740px){
-  .apps{}
+  
   .apps h1{width: 320px; height: 169px; margin: 0 auto;}
-  .apps .infos{}
+ 
   .apps .info{max-width: none;}
   .apps .figures{display: block; height: auto;}
   .apps .figures > div{display: flex; justify-content: center; height: 240px;}
@@ -574,6 +574,30 @@ footer .navigations .map h3 .icon{display: none;}
   .accessibilty figure{transform: translate(20px,0);}
 }
 
+
+/* enviroment */
+@media (max-width:1000px){
+  .enviroment p br{display: none;}
+}
+@media (max-width:740px){
+  
+}
+
+
+
+@media (max-width:1000px){
+  .accessroy_shop img{width: 960px;}
+}
+@media (max-width:740px){
+  
+}
+
+@media (max-width:1000px){
+  .trade p br{display: none;}
+}
+@media (max-width:740px){
+  
+}
 
 
 /* footer  accordion menu*/
