@@ -30,12 +30,21 @@
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
 </head>
 <body>
     <!-- header -->
     <header>
         <div class="inner">
             <ul class="menu">
+                <li class="menu_starter">
+                  <a href="#">
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>    
+                  </a>
+                </li>
                 <li class="apple_logo"><a href="#">Apple</a></li>
                 <li><a href="#">스토어</a></li>
                 <li><a href="#">Mac</a></li>
@@ -74,6 +83,7 @@
                         <div class="search_icon"></div>
                         <div class="search_close"></div>
                     </div>
+                    <div class="search_canceler">취소</div>
                     <div class="autocompletes">
                         <h3>빠른링크</h3>
                         <ul>
@@ -87,6 +97,20 @@
                 </div>
             </div>
 
+            <div class="clone_menu">
+              <ul>
+                <li><a href="#">스토어</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Apple 독점 제공</a></li>
+                <li><a href="#">액세서리</a></li>
+                <li><a href="#">고객지원</a></li>
+              </ul>
+            </div>
+
 
 
 
@@ -94,8 +118,11 @@
     </header>
     <!-- nav -->
     <nav>
+        <div class="shadow"></div>
+        <div class="contents_bg"></div>
         <div class="inner">
             <h1>iPad</h1>
+            <div class="menu_toggler"></div>
             <ul class="menu">
                 <li class="active"><a href="#">개요</a></li>
                 <li><a href="#">iPad를 선택하는 이유</a></li>
@@ -109,7 +136,7 @@
          <!-- hero -->
     <section class="hero">
       <div class="inner">
-          <h1 class="bgtext">iPad</h1>
+          <h1 class="bgtext mb">iPad</h1>
               <div class="figures">
                   <figure>
                       <img src="./images/hero_ipad.jpg" alt="iPad와 Smart Keyboard 및 App Pencil">
@@ -384,36 +411,43 @@
     <!-- ipados -->
     <section class="ipados">
       <div class="inner">
-          <h1 class="bgtext">iPadOS. 작업의 성공 방정식</h1>
-          <div class="infos infos--large">
-              <div class="info">
-                  <p>널찍한 Multi-Touch 디스플레이를 위해 디자인된 iPadOS는 강력하면서도 누구든 손쉽게 사용할 수 있습니다.</p>
-              </div>
-              <div class="info">
-                  <p>iPadOS 15은 사용하기 쉬운 멀티태스킹 기능, 정보를 검색하고 정리하는 새로운 방식, 향상된 메모 기능 등을 통해 iPad의 성능을 한층 더 끌어올립니다.</p>
-                  <a href="#" class="link">iPadOS의 새로운 기능 살펴보기</a>
-              </div>
+
+        <h1 class="bgtext">
+          iPadOS. 작업의 성공 방정식.
+        </h1>
+        <div class="infos infos--large">
+          <div class="info">
+            <p>널찍한 Multi-Touch 디스플레이를 위해 디자인된 iPadOS는 강력하면서도 누구든 손쉽게 사용할 수 있습니다.</p>
           </div>
-          <div class="figures">
-              <div class="figure_split_view">
-                  <figure>
-                      <figcaption class="bgtext">두 개의 앱, 서로 양옆에 놓고 쓰기</figcaption>
-                      <img src="./images/ipados_split_view.png" alt="Split View로 이미지를 편집하면서 Mail 앱을 사용 중인 모습">
-                  </figure>
-              </div>
-              <div class="figure_widgets">
-                  <figure>
-                      <figcaption class="bgtext">홈 화면에 바로뜨는 위젯</figcaption>
-                      <img src="./images/ipados_widgets.png" alt="홈 화면에 바로뜨는 위젯">
-                  </figure>
-              </div>
-              <div class="figure_quick_note">
-                  <figure>
-                      <figcaption class="bgtext">어디서나 남기는 빠른 메모</figcaption>
-                      <img src="./images/ipados_quick_note.png" alt="Safari의 빠른 메모">
-                  </figure>
-              </div>
+          <div class="info">
+            <p>
+              iPadOS 15는 사용하기 쉬운 멀티태스킹 기능, 정보를 검색하고 정리하는 새로운 방식,
+              향상된 메모 기능 등을 통해 iPad의 성능을 한층 더 끌어올립니다.
+            </p>
+            <a href="javascript:void(0)" class="link">iPadOS의 새로운 기능 살펴보기</a>
           </div>
+        </div>
+        <div class="figures">
+          <div class="figure_split_view">
+            <figure>
+              <img src="./images/ipados_split_view.png" alt="Split View로 이미지를 편집하면서 Mail 앱을 사용 중인 모습" />
+              <figcaption class="bgtext">두 개의 앱, 서로 양옆에 놓고 쓰기</figcaption>
+            </figure>
+          </div>
+          <div class="figure_widgets">
+            <figure>
+              <img src="./images/ipados_widgets.png" alt="홈 화면에 표시된 위젯" />
+              <figcaption class="bgtext">홈 화면에 바로 뜨는 위젯</figcaption>
+            </figure>
+          </div>
+          <div class="figure_quick_note">
+            <figure>
+              <img src="./images/ipados_quick_note.png" alt="Safari의 빠른 메모" />
+              <figcaption class="bgtext">어디서나 남기는 빠른 메모</figcaption>
+            </figure>
+          </div>
+        </div>
+
       </div>
     </section>
 
